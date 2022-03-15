@@ -1,0 +1,73 @@
+{
+    "name": "Main",
+    "parameters": {},
+    "settings": {
+        "auto_eviction": false,
+        "data_passing_memory_size": "1GB"
+    },
+    "steps": {
+        "5386e080-87e6-4fd4-b98d-baff23052c3d": {
+            "environment": "a653a50e-86df-4680-9085-3873435140c3",
+            "file_path": "memory-map.ipynb",
+            "incoming_connections": [
+                "75c501c8-b4ea-47f4-be4a-6fa2e8620983"
+            ],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    283.5,
+                    80
+                ]
+            },
+            "parameters": {},
+            "title": "Memory-map data",
+            "uuid": "5386e080-87e6-4fd4-b98d-baff23052c3d"
+        },
+        "75c501c8-b4ea-47f4-be4a-6fa2e8620983": {
+            "environment": "a653a50e-86df-4680-9085-3873435140c3",
+            "file_path": "fetch-data.ipynb",
+            "incoming_connections": [],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    20,
+                    169.25
+                ]
+            },
+            "parameters": {},
+            "title": "Get data",
+            "uuid": "75c501c8-b4ea-47f4-be4a-6fa2e8620983"
+        },
+        "a9543343-7b62-44c6-b5a3-ff5bed9146fe": {
+            "environment": "a653a50e-86df-4680-9085-3873435140c3",
+            "file_path": "load-data.ipynb",
+            "incoming_connections": [
+                "75c501c8-b4ea-47f4-be4a-6fa2e8620983"
+            ],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    283.5,
+                    258.5
+                ]
+            },
+            "parameters": {},
+            "title": "Load data in memory",
+            "uuid": "a9543343-7b62-44c6-b5a3-ff5bed9146fe"
+        }
+    },
+    "uuid": "32341c4b-77ed-4255-89be-7aa3dabf88a5",
+    "version": "1.0.0"
+}
